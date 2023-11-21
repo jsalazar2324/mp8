@@ -1,0 +1,65 @@
+.taulell{
+    width: 800px;
+    height: 800px;
+    background-color: rgb(246, 143, 9);
+    margin: 0 auto;
+    border: rosybrown 10px solid;
+}
+.casella{
+    width: 100px;
+    height: 100px;
+    float: left;
+    background-image: linear-gradient(45deg,rgb(54, 110, 231),rgb(245, 244, 193));  
+
+}
+
+.filera:nth-child(2n+1) .casella:nth-child(2n) {
+    background-image: linear-gradient(45deg,rgb(13, 60, 163),rgb(234, 118, 166)); 
+
+}
+
+.filera:nth-child(2n) .casella:nth-child(2n+1) {
+    background-image: linear-gradient(45deg,rgb(13, 60, 163),rgb(234, 118, 166)); 
+}
+
+b{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: radial-gradient(circle at -20% -20%,rgb(11, 212, 226),rgb(242, 235, 164));
+    display: block;
+    margin: 10px;
+    box-shadow: 1px 1px 3px rgb(30, 3, 80);
+}
+
+b:hover{
+position: relative;
+bottom: -100px;
+transition: all;
+}
+
+.filera:nth-child(n+3) b{
+    display: none;
+}
+
+.filera:nth-child(n+7) b{
+    display: block;
+    background-color: rgb(32, 25, 107);
+    background-image: radial-gradient(circle at -20% -20%,rgb(214, 98, 207),rgb(243, 230, 90));    
+}
+
+.filera:nth-child(n+7) b:hover{
+    position: relative;
+    bottom: 100px;
+}
+
+.degradat{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: beige;
+    background-image: radial-gradient(circle at 0 0,rgb(167, 146, 239),rgb(243, 104, 185));
+
+}
+

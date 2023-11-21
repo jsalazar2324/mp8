@@ -1,0 +1,322 @@
+.cap{
+    position: relative;
+    width: 450px;
+    height: 650px;
+    background-color: rgb(238, 224, 205);
+    margin: 0 auto;
+    top: 50px;
+    border-radius: 300px 300px 400px 400px;
+  }
+  .pels .esqu{
+    position:absolute;
+    height:700px;
+    width:400px;
+    background-color: #684E32;
+    border-radius:50%;
+    z-index: -10;
+    right:110px;
+    top:-50px;
+  }
+  .pels .dret{
+    position:absolute;
+    height:700px;
+    width:400px;
+    background-color: #684E32;
+    border-radius:50%;
+    z-index: -10;
+    left:110px;
+    top:-50px;
+  }
+   .pels .esquee{
+    position: absolute;
+    background-color: #684E32;
+    width: 275px;
+    height: 785px;
+    border-radius: 30% 30% 20px 20px;
+    z-index:-10;
+    left:-70px;
+    top:120px;
+  }
+  .pels .drett{
+    position: absolute;
+    background-color: #684E32;
+    width: 275px;
+    height: 785px;
+    border-radius: 30% 30% 20px 20px;
+    z-index:-10;
+    right:-70px;
+    top:120px; 
+  }
+  
+  .celles .esq{
+    position:absolute;
+    clip-path: polygon(77% 28%, 100% 29%, 100% 41%, 40% 36%, 0 43%, 39% 26%);
+    background-color: #684E32;
+    height:230px;
+    width: 160px;
+    top:100px;
+    left:30px;
+  }
+  .celles .dreta{
+     position:absolute;
+    clip-path: polygon(77% 28%, 100% 29%, 100% 41%, 40% 36%, 0 43%, 39% 26%);
+    background-color: #684E32;
+    height:230px;
+    width: 160px;
+    top:100px;
+    right:30px;
+    transform:rotateY(180deg)
+  }
+  
+  .ulls .esquu{
+    position:absolute;
+    background: white;
+    width: 115px;
+    height: 90px;
+    border-radius: 70% 0%;
+    border-radius: 0 100px;
+    transform: rotate(147deg);
+    border-bottom:4px solid;
+    left:60px;
+    top:203px;
+  }
+  .ulls .dreet{
+    position:absolute;
+    background: white;
+    width: 115px;
+    height: 90px;
+    border-radius: 70% 0%;
+    display: inline-block;
+    border-radius: 0 100px;
+    transform: scaleX(-1) rotate(140deg);
+    right: 60px;
+    top: 203px;
+    border-bottom:3px solid;
+  }
+  .iris .esquer{
+    position:absolute;
+    width:63px;
+    height:63px;
+    background-color:#725742;
+    border-radius:50%;
+    top:220px;
+    left:85px;
+  }
+  .iris .dre{
+    position:absolute;
+    width:63px;
+    height:63px;
+    background-color:#725742;
+    border-radius:50%;
+    right:85px;
+    top:220px;
+  }
+  
+  .iris .iris1{
+    position:absolute;
+    width:30px;
+    height:30px;
+    background-color:black;
+    border-radius:50%;
+    top:237px;
+    left:102px;
+  }
+  .iris .iris2{
+    position:absolute;
+    width:30px;
+    height:30px;
+    background-color:black;
+    border-radius:50%;
+    top:237px;
+    right:102px;
+  }
+  .iris .blanc1{
+    position:absolute;
+    width:15px;
+    height:15px;
+    background-color:white;
+    border-radius:50%;
+    top:237px;
+    left:120px;
+    opacity: 0.9; 
+  }
+  .iris .blanc2{
+    position:absolute;
+    width:15px;
+    height:15px;
+    background-color:white;
+    border-radius:50%;
+    top:237px;
+    right:98px;
+    opacity: 0.9; 
+  }
+  .pestanyes .pestanyesesq{
+    position:absolute;
+    clip-path: polygon(32% 35%, 42% 44%, 40% 35%, 49% 41%, 31% 55%, 22% 41%, 37% 48%);
+  width:150px;
+  height:100px;
+  background-color:black;
+  left:0px;
+  top:185px;
+  transform:rotate(-7deg);
+  }
+  .pestanyes .pestanyesdret{
+   position:absolute;
+    clip-path: polygon(32% 35%, 42% 44%, 40% 35%, 49% 41%, 31% 55%, 22% 41%, 37% 48%);
+  width:150px;
+  height:100px;
+  background-color:black;
+  left:303px;
+  top:190px;
+  transform:scalex(-1) rotate(-11deg);
+   }
+  .boca .boca1{
+    position:absolute;
+    border-radius: 60% 0;
+    transform:rotate(45deg);
+    background-color:#D58F97;
+    height:100px;
+    width:100px;
+    left:174px;
+    top:454px;
+  }
+  .boca .bocaratlla{
+    position:absolute;
+    background-color:#D17C86;
+    width:140px;
+    height:1px;
+    top:504px;
+    left:154px;
+    margin:auto;
+  }
+  .boca .quadrat{
+    position:absolute;
+    clip-path: inset(5% 20% 15% 10%);
+    width:200px;
+    height:80px;
+    background-color:rgb(238, 224, 205);
+    right:115px;
+    top:410px;
+  }
+  .boca .triangle{
+    position:absolute;
+    clip-path: polygon(49% 69%, 19% 41%, 75% 41%);
+    width: 90px;
+    height:50px;
+    background-color: rgb(238, 224, 205);
+    top:450px;
+    left:180px;  
+  }
+  .nariz .tabiqueizq1{
+    position:absolute;
+    clip-path: ellipse(23% 40% at 50% 50%);
+    width:100px;
+    height:120px;
+    background-color:#DAB185;
+    top:290px;
+    left:139px;
+  }
+  .nariz .tabiqueizq2{
+    position:absolute;
+    clip-path: ellipse(23% 40% at 50% 50%);
+    width:100px;
+    height:130px;
+    background-color: rgb(238, 224, 205);
+    top:287px;
+    left:137px;
+  }
+  .nariz .tabiquedret1{
+    position:absolute;
+    clip-path: ellipse(23% 40% at 50% 50%);
+    width:100px;
+    height:120px;
+    background-color:#DAB185;
+    top:290px;
+    right:139px;
+  }
+  .nariz .tabiquedret2{
+    position:absolute;
+    clip-path: ellipse(23% 40% at 50% 50%);
+    width:100px;
+    height:130px;
+    background-color: rgb(238, 224, 205);
+    top:287px;
+    right:137px;
+  }
+  .nariz .bolaizq1{
+    position:absolute;
+    height:35px;
+    width:30px;
+    background-color:#DAB185;
+    border-radius:50%;
+    top:390px;
+    left:186px;
+  }
+  .nariz .bolaizq2{
+    position:absolute;
+    height:35px;
+    width:30px;
+    background-color:rgb(238, 224, 205);
+    border-radius:50%;
+    top:390px;
+    left:188px;
+  }
+  .nariz .boladret1{
+    position:absolute;
+    height:35px;
+    width:30px;
+    background-color:#DAB185;
+    border-radius:50%;
+    top:390px;
+    right:186px;
+  }
+  .nariz .boladret2{
+    position:absolute;
+    height:35px;
+    width:30px;
+    background-color:rgb(238, 224, 205);
+    border-radius:50%;
+    top:390px;
+    right:188px;
+  }
+  
+  .nariz .centro1{
+    position:absolute;
+    clip-path: ellipse(32% 34% at 50% 50%);
+    height:55px;
+    width:65px;
+    background-color:#DAB185;
+    top:390px;
+    left:193px;
+  }
+  .nariz .centro2{
+    position:absolute;
+    clip-path: ellipse(32% 34% at 50% 50%);
+    height:55px;
+    width:65px;
+    background-color:rgb(238, 224, 205);
+    top:388px;
+    left:193px;
+  }
+  .colorete .rodonaizq{
+    position:absolute;
+    height:90px;
+    width:120px;
+    border-radius:50%;
+    background-color:#E3A2A9;
+    top:320px;
+    left:40px;
+    opacity: 0.2; 
+    filter:blur(13px)
+  }
+  .colorete .rodonadret{
+    position:absolute;
+    height:90px;
+    width:120px;
+    border-radius:50%;
+    background-color:#E3A2A9;
+    top:320px;
+    right:40px;
+    opacity: 0.2; 
+    filter:blur(13px)
+  }
