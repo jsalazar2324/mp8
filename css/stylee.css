@@ -1,0 +1,165 @@
+body{
+    background: rgb(198, 180, 155);
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline;
+    padding: 40px;
+    color: white;
+}
+.inicio{
+    display: block;
+    width: 10rem;
+    height: 9rem;
+    border-radius: 20%;
+    float:left;
+    margin: 2rem;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(50, 40, 28);
+    font-size: 2.5rem;
+    vertical-align:top;
+    background-image: url(../inici.png);
+    background-size: 110%;
+}
+.horario{
+    display: block;
+    width: 10rem;
+    height: 9rem;
+    border-radius: 20%;
+    float:left;
+    margin: 2rem;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 1.5rem;
+    vertical-align:top;
+    background-image: url(../horario.png);
+    background-size: 120%;
+}
+.feedly{
+    display: block;
+    width: 10rem;
+    height: 9rem;
+    border-radius: 20%;
+    float:left;
+    margin: 2rem;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 1.5rem;
+    vertical-align:top;
+    background-image: url(../feedly.png);
+    background-size: 100%;
+}
+.ifpagram{
+    display: block;
+    width: 10rem;
+    height: 9rem;
+    border-radius: 20%;
+    float:left;
+    margin: 2rem;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 1.5rem;
+    vertical-align:top;
+    background-image: url(../insta.png);
+    background-size: 110%;
+}
+.escacs{
+    display: block;
+    width: 10rem;
+    height: 9rem;
+    border-radius: 20%;
+    float:left;
+    margin: 2rem;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 1.5rem;
+    vertical-align:top;
+    background-image: url(../escacs.jpg);
+    background-size: 100%;
+}
+.absolute{
+    display: block;
+    width: 10rem;
+    height: 9rem;
+    border-radius: 20%;
+    float:left;
+    margin: 2rem;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 1.5rem;
+    vertical-align:top;
+    background-image: url(../watch.jpg);
+    background-size: 100%;
+}
+.flor{
+    display: block;
+    width: 10rem;
+    height: 9rem;
+    border-radius: 20%;
+    float:left;
+    margin: 2rem;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 1.5rem;
+    vertical-align:top;
+    background-image: url(../flor.jpg);
+    background-size: 100%;
+}
+.cara{
+    display: block;
+    width: 10rem;
+    height: 9rem;
+    border-radius: 20%;
+    float:left;
+    margin: 2rem;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 1.5rem;
+    vertical-align:top;
+    background-image: url(../cara.jpg);
+    background-size: 100%;
+}
+.photo{
+    display: block;
+    width: 10rem;
+    height: 9rem;
+    border-radius: 20%;
+    float:left;
+    margin: 2rem;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 1.5rem;
+    vertical-align:top;
+    background-image: url(../photoshop.jpg);
+    background-size: 100%;
+}
+.examen{
+    display: block;
+    width: 10rem;
+    height: 9rem;
+    border-radius: 20%;
+    float:left;
+    margin: 2rem;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 1.5rem;
+    vertical-align:top;
+    background-image: url(../examem.jpg);
+    background-size: 100%;
+}
+
+
+
+
