@@ -1,5 +1,6 @@
 body{
-    background: rgb(198, 180, 155);
+    background-image: url(../fondooooo.jpg);
+    background-size: 100%;
 }
 ul{
     list-style: none;
