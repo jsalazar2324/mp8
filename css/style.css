@@ -1,0 +1,24 @@
+body{
+    background: black;
+}
+ul a{
+    display: block;
+    width: 20rem;
+    height: 20rem;
+    background-image: radial-gradient(rgb(30, 30, 113), black);
+    border-radius: 40%;
+    opacity: 60%;
+    float: left;
+    text-decoration: none;
+    color: inherit;
+    margin: 2rem;
+    text-align: center;
+    list-style:none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul a:hover{
+    transform: scale(1.2);
+}
