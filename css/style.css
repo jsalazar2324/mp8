@@ -1,5 +1,8 @@
-body{
-    background: black;
+
+body,html{
+     width: 100%;
+     overflow-x: hidden;
+     background: black;
 }
 ul a{
     display: block;
