@@ -2,15 +2,15 @@
 body,html{
      width: 100%;
      overflow-x: hidden;
-     background: black;
+     background: #55646c;
 }
 ul a{
     display: block;
     width: 20rem;
-    height: 20rem;
-    background-image: radial-gradient(rgb(30, 30, 113), black);
-    border-radius: 40%;
-    opacity: 60%;
+    height: 15rem;
+    border-radius: 20%;
+    background: #55646c;
+    border: 1px white solid;
     float: left;
     text-decoration: none;
     color: inherit;

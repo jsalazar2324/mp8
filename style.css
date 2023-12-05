@@ -5,11 +5,6 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
-.lineal {
-    width: 250px;
-    height:200px;
-    background: radial-gradient(rgb(55, 25, 164), rgb(7, 29, 87),);  
-  }
 h2{
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 17rem;
@@ -31,13 +26,12 @@ a{
     position: relative;
     left:1rem;
 }
-
-    @keyframes mover-izquierda-derecha {
-        from{
-            transform: translateX(-100px)
-        }
-    }
-    h1{
+/*@keyframes mover-izquierda-derecha {
+    from{
+    transform: translateX(-100px)
+    }*/
+}
+h1{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 2.5rem;
         color:  whitesmoke;
@@ -46,4 +40,40 @@ a{
         opacity: 70%;
         top:-6rem;
         animation: mover-izquierda-derecha 4s 1;
-    }
+}
+.linea{
+    width: 10rem;
+    height: 0.25rem;
+    position: relative;
+    background: white;
+    top: -55rem;
+    left:690px;
+    opacity: 55%;
+}
+.linea2{
+    height: 10rem;
+    width: 0.25rem;
+    position: relative;
+    background: white;
+    top: -55rem;
+    left:690px;
+    opacity: 55%;
+}
+.linea3{
+    width: 10rem;
+    height: 0.25rem;
+    position: relative;
+    background: white;
+    top: -25rem;
+    right:-15rem;
+    opacity: 55%;
+}
+.linea4{
+    height: 10rem;
+    width: 0.25rem;
+    position: relative;
+    background: white;
+    top: -55rem;
+    left:690px;
+    opacity: 55%;
+}
