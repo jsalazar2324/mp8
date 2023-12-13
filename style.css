@@ -1,79 +1,115 @@
+*{
+    position: relative;
+}
+
 body{
-  background-image: url(../mp8/fons.jpg);
-  background-attachment: fixed;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: url(../mp8/fons.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h2{
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 17rem;
-        color: whitesmoke;
-        text-align: center;
-        position: relative;
-        top:2rem;
-        animation: mover-izquierda-derecha 4s 1;
-        opacity: 40%;
+    position: relative;
+    font-size: 17rem;
+    color: whitesmoke;
+    text-align: center;
+    top:2rem;
+    animation: mover-izquierda-derecha 4s 1;
+    opacity: 40%;
+    background: red;
 }
 a{
     text-decoration: none;
 }
 #fo{
-    position: relative;
     right:3.2rem;
 }
 #li{
-    position: relative;
     left:1rem;
 }
 /*@keyframes mover-izquierda-derecha {
     from{
-    transform: translateX(-100px)
-    }*/
+        transform: translateX(-100px) 
+   }
+   */
 }
 h1{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 2.5rem;
-        color:  whitesmoke;
-        text-align:center;
-        position: relative;
-        opacity: 70%;
-        top:-6rem;
-        animation: mover-izquierda-derecha 4s 1;
+    font-size: 2.5rem;
+    color: whitesmoke;
+    text-align:center;
+    opacity: 70%;
+    top:-6rem;
+    animation: mover-izquierda-derecha 4s 1;
 }
-.linea{
+
+.cajamarco1 {
+    position: absolute;
+    width:10rem;
+    height:10rem;
+    opacity: 55%;
+    top: 2rem;
+    left: 5rem;
+    transform-origin: center;
+
+}
+
+.cajamarco2 {
+    position: absolute;
+    width:10rem;
+    height:10rem;
+    opacity: 55%;
+    bottom: 2rem;
+    right: 5rem;
+    transform-origin: center;
+    transform:rotate(180deg);
+
+}
+
+.linea1{
+    position: absolute;
     width: 10rem;
     height: 0.25rem;
-    position: relative;
     background: white;
-    top: -55rem;
-    left:690px;
-    opacity: 55%;
+    top: 1rem;
+    left: 0rem;
+
 }
+
 .linea2{
+    position: absolute;
     height: 10rem;
     width: 0.25rem;
-    position: relative;
     background: white;
-    top: -55rem;
-    left:690px;
-    opacity: 55%;
+    top: 0rem;
+    left: 1rem;
+
 }
-.linea3{
-    width: 10rem;
-    height: 0.25rem;
-    position: relative;
-    background: white;
-    top: -25rem;
-    right:-15rem;
-    opacity: 55%;
+
+@media screen and (max-width: 700px) {
+    h2{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        font-size: 11rem;
+        top:2rem;
+   }
+    h2 a {
+        margin: 0 auto;
+   }
 }
-.linea4{
-    height: 10rem;
-    width: 0.25rem;
-    position: relative;
-    background: white;
-    top: -55rem;
-    left:690px;
-    opacity: 55%;
+
+
+@media screen and (max-width: 800px) {
+    .cajamarco1 {
+        top: 1rem;
+        left: 3rem;
+    }
+    
+    .cajamarco2 {
+        bottom: 1rem;
+        right: 3rem; 
+    }
 }
