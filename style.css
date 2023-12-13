@@ -30,11 +30,10 @@ a{
 #li{
     left:1rem;
 }
-/*@keyframes mover-izquierda-derecha {
+@keyframes mover-izquierda-derecha {
     from{
         transform: translateX(-100px) 
    }
-   */
 }
 h1{
     font-size: 2.5rem;
@@ -64,8 +63,7 @@ h1{
     bottom: 2rem;
     right: 5rem;
     transform-origin: center;
-    transform:rotate(180deg);
-
+    transform:rotate(180deg);    
 }
 
 .linea1{
@@ -74,7 +72,7 @@ h1{
     height: 0.25rem;
     background: white;
     top: 1rem;
-    left: 0rem;
+    left: 1rem;
 
 }
 
@@ -83,7 +81,7 @@ h1{
     height: 10rem;
     width: 0.25rem;
     background: white;
-    top: 0rem;
+    top: 1rem;
     left: 1rem;
 
 }
