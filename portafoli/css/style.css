@@ -1,0 +1,38 @@
+
+body,html{
+     width: 100%;
+     overflow-x: hidden;
+    background: hsla(72, 14%, 93%, 1);
+
+     background: linear-gradient(90deg, hsla(72, 14%, 93%, 1) 0%, hsla(0, 0%, 100%, 1) 50%, hsla(72, 14%, 93%, 1) 99%);
+     
+     background: -moz-linear-gradient(90deg, hsla(72, 14%, 93%, 1) 0%, hsla(0, 0%, 100%, 1) 50%, hsla(72, 14%, 93%, 1) 99%);
+     
+     background: -webkit-linear-gradient(90deg, hsla(72, 14%, 93%, 1) 0%, hsla(0, 0%, 100%, 1) 50%, hsla(72, 14%, 93%, 1) 99%);
+     
+     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EFF0EB", endColorstr="#FFFFFF", GradientType=1 );;
+}
+ul a{
+    display: block;
+    width: 20rem;
+    height: 15rem;
+    border-radius: 20%;
+    border: 0.10rem #cfd0c9 solid;
+    float: left;
+    text-decoration: none;
+    color: inherit;
+    margin: 2rem;
+    text-align: center;
+    list-style:none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul a:hover{
+    transform: scale(1.5);
+}
+ul{
+    height: 67rem;
+    
+}
