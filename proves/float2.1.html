@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float 2</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Verdana;
+        }
+        h1{
+            margin: 0;
+            text-align: center;
+        }
+        div{
+            background-color: rgb(254, 202, 215);
+            margin: 0;
+            height: 50px;
+            padding: 0.5%;
+        }
+
+        .Cap {background-color: rgb(200, 248, 248);
+            padding: 2%;
+        }
+        
+        .Menú{
+            float: left; 
+            width: 24%;     
+            height: 200px;
+        }
+        .Contingut {
+            float: left; 
+            width: 49%;
+            height: 940px;
+            overflow: scroll;
+        }
+        .Lateral {
+            float: right;
+            width: 24%;
+            height: 200px;
+        }
+        .Peu {clear: left;
+            background-color: rgb(228, 255, 173);
+            height: 50px;
+        }
+        *, *:after, *:before{
+            margin: 0;
+            padding: 0;
+        }
+        body div{
+
+        }
+        div > .classe{
+        }
+        .navegacio{
+            /*background: rgb(249, 249, 155);*/
+            width: 30%;
+            margin: auto;
+        }
+        .primernivell{
+            background:  rgb(170, 169, 201);
+            color: white;
+            margin: 0.25rem;
+            display: inline-block;
+            padding: 0.25rem;
+            height: 2rem;
+            position: relative;
+        }
+        .primernivell:hover{
+            background: palevioletred;
+        }
+        .primernivell:hover > .secundari{
+           display: block;
+        }
+        .secundari{
+            display: block;
+            background: rgb(110, 67, 126);
+            position: absolute;
+            left: 0;
+            top: 2.5rem;
+            display: none;
+        }
+        .segonnivell{
+            background: rgb(122, 130, 209);
+            display: block;
+            top: 2rem;
+            font-size: 0.85rem;
+            height: 2rem;
+            border-bottom:solid white 1px;
+        }
+        .segonnivell:hover{
+           background: rgb(39, 13, 232);
+        }
+
+    </style>
+</head>
+<body>
+  <div class="Cap">
+    <h1>Frankbook</h1>
+    <ul class="navegacio">
+        <li class="primernivell">Opció 1
+            <ul class="secundari">
+                <li class="segonnivell">Sub-opció</li>
+                <li class="segonnivell">Sub-opció</li>
+                <li class="segonnivell">Sub-opció</li>
+                <li class="segonnivell">Sub-opció</li>
+                <li class="segonnivell">Sub-opció</li>
+            </ul>
+        </li>
+        <li class="primernivell">Opció 2
+            <ul class="secundari">
+                <li class="segonnivell">Sub-opció</li>
+                <li class="segonnivell">Sub-opció</li>
+                <li class="segonnivell">Sub-opció</li>
+                <li class="segonnivell">Sub-opció</li>
+                <li class="segonnivell">Sub-opció</li>
+            </ul>
+        </li>
+        <li class="primernivell">Opció 3
+            <ul class="secundari">
+                <li class="segonnivell">Sub-opció</li>
+                <li class="segonnivell">Sub-opció</li>
+                <li class="segonnivell">Sub-opció</li>
+                <li class="segonnivell">Sub-opció</li>
+                <li class="segonnivell">Sub-opció</li>
+            </ul>
+        </li>
+        <li class="primernivell">Opció 4
+            <ul class="secundari">
+                <li class="segonnivell">Sub-opció</li>
+                <li class="segonnivell">Sub-opció</li>
+                <li class="segonnivell">Sub-opció</li>
+                <li class="segonnivell">Sub-opció</li>
+                <li class="segonnivell">Sub-opció</li>
+            </ul>
+        </li>
+        <li class="primernivell">Opció 5
+            <ul class="secundari">
+                <li class="segonnivell">Sub-opció</li>
+                <li class="segonnivell">Sub-opció</li>
+                <li class="segonnivell">Sub-opció</li>
+                <li class="segonnivell">Sub-opció</li>
+                <li class="segonnivell">Sub-opció</li>
+            </ul>
+        </li>
+    </ul>
+  </div>
+
+  <div class="Menú">
+    <h2>Menú</h2>
+    <ul>
+        <li><a href="#e1">Entrada1</a></li>
+        <li><a href="#e2">Entrada2</a></li>
+        <li><a href="#e3">Entrada3</a></li>
+        <li><a href="#e4">Entrada4</a></li>
+        <li><a href="#e5">Entrada5</a></li>
+        <li><a href="#e6">Entrada6</a></li>
+        <li><a href="#e7">Entrada7</a></li>
+    </ul>
+    
+  </div>
+  <div class="Contingut">
+
+    <h2>TimeLine</h2>
+
+    <h3 id="e1">post1</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates earum odio quia voluptatum nihil molestiae culpa dolores consectetur voluptatibus! Quaerat molestias voluptates accusantium officia quam quasi maiores provident veritatis et!</p>
+
+    <h3 id="e2">post2</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates earum odio quia voluptatum nihil molestiae culpa dolores consectetur voluptatibus! Quaerat molestias voluptates accusantium officia quam quasi maiores provident veritatis et!</p>
+
+    <h3 id="e3">post3</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates earum odio quia voluptatum nihil molestiae culpa dolores consectetur voluptatibus! Quaerat molestias voluptates accusantium officia quam quasi maiores provident veritatis et!</p>
+
+    <h3 id="e4">post4</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates earum odio quia voluptatum nihil molestiae culpa dolores consectetur voluptatibus! Quaerat molestias voluptates accusantium officia quam quasi maiores provident veritatis et!</p>
+
+    <h3 id="e5">post5</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates earum odio quia voluptatum nihil molestiae culpa dolores consectetur voluptatibus! Quaerat molestias voluptates accusantium officia quam quasi maiores provident veritatis et!</p>
+
+    <h3 id="e6">post6</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates earum odio quia voluptatum nihil molestiae culpa dolores consectetur voluptatibus! Quaerat molestias voluptates accusantium officia quam quasi maiores provident veritatis et!</p>
+
+    <h3 id="e7">post7</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates earum odio quia voluptatum nihil molestiae culpa dolores consectetur voluptatibus! Quaerat molestias voluptates accusantium officia quam quasi maiores provident veritatis et!</p>
+
+    <h3 id="e8">post8</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates earum odio quia voluptatum nihil molestiae culpa dolores consectetur voluptatibus! Quaerat molestias voluptates accusantium officia quam quasi maiores provident veritatis et!</p>
+
+    <h3 id="e9">post9</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates earum odio quia voluptatum nihil molestiae culpa dolores consectetur voluptatibus! Quaerat molestias voluptates accusantium officia quam quasi maiores provident veritatis et!</p>
+
+    <h3 id="e10">post10</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates earum odio quia voluptatum nihil molestiae culpa dolores consectetur voluptatibus! Quaerat molestias voluptates accusantium officia quam quasi maiores provident veritatis et!</p>
+
+
+    </div>
+  <div class="Lateral">
+    <h2>Contacts</h2>
+    <ul>
+        <li>sampltext1</li>
+        <li>sampltext2</li>
+        <li>sampltext3</li>
+        <li>sampltext4</li>   
+    </ul>
+  </div>
+
+  <div class="Peu">Peu</div>
+</body>
+</html>
