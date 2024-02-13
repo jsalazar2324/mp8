@@ -1,0 +1,53 @@
+body{
+    height: 100%;
+    background-image: linear-gradient(to top right, rgb(207, 207, 206) 50%, rgb(238, 215, 218) 50%);
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    line-height: 0;
+}
+.contenidor{
+    height: 589px;
+    width: 960px;
+    margin: 0 auto;
+  }
+
+.black{
+    color: black;
+}
+.gray{
+    color: grey;
+}
+.contenidorimatge{
+    margin: 0 auto;
+    height: 720px;
+    width: 960px;
+    background-image: url(/img/fons.jpg);
+}
+.columna1{
+    width: 300px;
+    height: 780px;
+    float: left;
+    padding: 10px;
+}
+.columna2{
+    width: 300px;
+    height: 780px;
+    float: left;
+    padding: 10px;
+}
+.columna3{
+    width: 300px;
+    height: 780px;
+    float: left;
+    padding: 10px;
+}
+.contenidorlogo{
+    height: 220px;
+    width: 960px;
+    text-align: center;
+}
