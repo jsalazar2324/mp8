@@ -21,7 +21,7 @@ body{
 h2{
     position: relative;
     font-size: 17rem;
-    color: #dcddd7;
+    color: white;
     text-align: center;
     top:2rem;
     animation: mover-izquierda-derecha 4s 1;
@@ -45,7 +45,7 @@ a{
 }
 h1{
     font-size: 2.5rem;
-    color: #dcddd7;
+    color: whitesmoke;
     text-align:center;
     opacity: 80%;
     top:-6rem;
